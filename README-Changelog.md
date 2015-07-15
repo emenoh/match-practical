@@ -39,8 +39,8 @@ Use Stories 4, 5
 "we need to add the user's email address as a clickable link to the page,
 as well as a link to their blog, if available.""
 
-4. Added the email key from the JSON API response to the list of variables available to thesimple html template function. Added a conditional block to append the email address as an anchor tag/string to 'outhtml'.
+4. Added the email key/value from the JSON API response to the list of variables available to thesimple html template function. Added a conditional block to append the email address as an anchor tag/string to 'outhtml'.
 
-5.  Added the blog key from the JSON API response to the list of variables available to thesimple html template function. Added a conditional block to append the blog address as an anchor tag/string to 'outhtml'.
+5.  Added the blog key/value from the JSON API response to the list of variables available to thesimple html template function. Added a conditional block to append the blog address as an anchor tag/string to 'outhtml'.
 
 
