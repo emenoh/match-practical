@@ -16,6 +16,8 @@
 
     |+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 
+3. In styles.css the body tag had been set to position: absolute which was forcing the main div element to be aligned top left. Removing this CSS rule fixed the display to match the reference.
+
 That fixed the breaking bugs.
 
 
