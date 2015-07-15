@@ -3,12 +3,11 @@
 
 
 ##Basic code typos corrected
-1. in index.html I saw an error in the console, so went and saw that the argument being passed to the requestJSON function was spelled incorrectly
+1. in index.html I saw an error in the console, so went and saw that the argument being passed to the requestJSON function was spelled incorrectly. After fixing this I was able to see the GitHub API JSON response data coming back.
 - requestJSON(requri, function(Json) {
 + requestJSON(requri, function(json) {
 
-2. in styles.css there was an extra { that I found by running a CSS Lint on the file.
-
+2. In styles.css there was an extra left bracket: '{' that I found by running a CSS Lint on the file (http://csslint.net/).
 - html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 {
 + html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
