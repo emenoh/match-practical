@@ -1,0 +1,13 @@
+Instructions.txt
+
+Oh no! Someone royally borked our GitHub user interface!
+
+It's supposed to look like this: http://codepen.io/jakestuts/full/ofJIB
+
+But, as you can see (attached zip file), it no longer works as expected. Also,
+while you're fixing it, can you make the enter key trigger a search (but, only
+when entering text in the search box). Optional extra credit: don't search for
+the same username twice.
+
+Oh, and we need to add the user's email address as a clickable link to the page,
+as well as a link to their blog, if available.
